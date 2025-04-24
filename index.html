@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Register</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="fullname" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="number">Mobile Number</label>
+        <input type="number" id="mobileNo" name="number" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Event Name</label>
+        <select name="event" id="event"  required>
+          <option value="fresher"></option>
+          <option value="fresher">Fresher</option>
+          <option value="navratri pujan">Navratri Pujan</option>
+          <option value="system">System 2-O</option>
+          <option value="farewell">Farewell</option>
+        </select>
+      </div>
+      <button type="submit" class="submit-btn">Register</button>
+    </form>
+  </div>
+
+</body>
+</html>
